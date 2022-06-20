@@ -1,0 +1,47 @@
+{
+  "userList": [
+    {
+      "name": "samrat man",
+      "phoneNumber": "4444444444",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "goa",
+      "pinCode": "222222",
+      "id": 21
+    },
+    {
+      "name": "priyanshu",
+      "phoneNumber": "5555555555",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "arunachal pradesh",
+      "pinCode": "222222",
+      "id": 22
+    },
+    {
+      "name": "manish",
+      "phoneNumber": "6666666666",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "andhra pradesh",
+      "pinCode": "333333",
+      "id": 23
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

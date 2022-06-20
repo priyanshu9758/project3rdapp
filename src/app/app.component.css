@@ -1,0 +1,45 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.other-field button{
+  font-size: 20px;
+}
+.image-set{
+  margin-left: 80px;
+  margin-top: 8px;
+}
+.bjp{
+  font-size: 35px;
+  margin-right: 50px;
+}
+.drop-image{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+*{
+  padding:0;
+  margin:0;
+}
+.container-fluid{
+  display: flex;
+}
+.mat-toolbar-single-row{
+  height: 80px;
+}
+.mat-sort-header-content{
+  font-size: 20px;
+}
+
