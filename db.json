@@ -32,6 +32,72 @@
       "state": "andhra pradesh",
       "pinCode": "333333",
       "id": 23
+    },
+    {
+      "name": "priyanshu",
+      "phoneNumber": "5555555555",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "goa",
+      "pinCode": "111111",
+      "id": 24
+    },
+    {
+      "name": "sandeep",
+      "phoneNumber": "7777777777",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "kohli",
+      "state": "chhattisgarh",
+      "pinCode": "222222",
+      "id": 25
+    },
+    {
+      "name": "manish",
+      "phoneNumber": "6666666666",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "www",
+      "state": "goa",
+      "pinCode": "444444",
+      "id": 26
+    },
+    {
+      "name": "tanmay",
+      "phoneNumber": "6666666666",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "obc",
+      "caste": "yadav",
+      "state": "arunachal pradesh",
+      "pinCode": "555555",
+      "id": 27
+    },
+    {
+      "name": "rahul",
+      "phoneNumber": "6666666666",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "chhattisgarh",
+      "pinCode": "333333",
+      "id": 28
+    },
+    {
+      "name": "ashish",
+      "phoneNumber": "8888888888",
+      "gender": "male",
+      "religion": "hinduism",
+      "category": "general",
+      "caste": "tyagi",
+      "state": "arunachal pradesh",
+      "pinCode": "444444",
+      "id": 29
     }
   ],
   "comments": [

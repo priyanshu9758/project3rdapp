@@ -1,5 +1,5 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import {FormGroup,FormBuilder,Validators} from "@angular/forms";
+import {FormGroup, FormBuilder, Validators, FormControl} from "@angular/forms";
 import {ApiService} from "../services/api.service";
 import {MatDialogRef , MAT_DIALOG_DATA} from "@angular/material/dialog";
 
@@ -19,15 +19,15 @@ export class DialogComponent implements OnInit {
 
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
-      name : ['',Validators.required,],
-      phoneNumber: ['',Validators.required,],
-      gender: ['',Validators.required],
-      religion: ['',Validators.required],
-      category: ['',Validators.required],
-      caste: ['',Validators.required],
-      state: ['',Validators.required],
-      pinCode: ['',Validators.required],
+      name: new FormControl('', [Validators.required, Validators.pattern("[a-zA-Z][a-zA-Z ]+")]),
 
+      phoneNumber: new FormControl('', [Validators.required, Validators.pattern("[5-9]+[0-9]*(\\.[0-9]+)?")]),
+      gender: new FormControl('',Validators.required),
+      religion: new FormControl('',Validators.required),
+      category: new FormControl('',Validators.required),
+      caste: new FormControl('',Validators.required),
+      state: new FormControl('',Validators.required),
+      pinCode: new FormControl('', [Validators.required, Validators.pattern("([1-9]{1}[0-9]{5}|[1-9]{1}[0-9]{3}\\\\s[0-9]{3})")])
     });
     if(this.editData){
       this.actionBtn = "Update";

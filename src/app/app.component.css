@@ -23,7 +23,8 @@ table {
 }
 .bjp{
   font-size: 35px;
-  margin-right: 50px;
+  margin-left: 60px;
+  /*margin-right: 50px;*/
 }
 .drop-image{
   margin-left: 20px;
@@ -32,7 +33,7 @@ table {
 *{
   padding:0;
   margin:0;
-  /*aksldhuiahol*/
+
 }
 .container-fluid{
   display: flex;

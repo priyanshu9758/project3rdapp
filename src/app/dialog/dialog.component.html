@@ -4,12 +4,14 @@
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label>Name</mat-label>
     <input formControlName="name" matInput placeholder="Name">
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label>Phone Number</mat-label>
     <input formControlName="phoneNumber" matInput placeholder="Phone Number" minlength="10" maxlength="10">
 <!--    <mat-error *ngIf="registerForm.get('phoneNumber').hasError('minlength'&&'pattern' )">Please Enter A Valid Phone number</mat-error>-->
 <!--    <mat-error *ngIf="registerForm.get('phoneNumber').hasError('required')">'This field is required'</mat-error>-->
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
 
 
@@ -22,7 +24,7 @@
       <mat-option value="others">Others</mat-option>
 
     </mat-select>
-
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label>Religion</mat-label>
@@ -51,6 +53,7 @@
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label>Caste</mat-label>
     <input formControlName="caste" matInput placeholder="Caste">
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label> State</mat-label>
@@ -84,10 +87,12 @@
       <mat-option value="uttarakhand">uttarakhand</mat-option>
       <mat-option value="west bengal">West Bengal</mat-option>
     </mat-select>
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
   <mat-form-field appearance="outline" class="col-md-6">
     <mat-label>PinCode</mat-label>
     <input formControlName="pinCode" matInput placeholder=" PinCode" minlength="6" maxlength="6">
+    <mat-error>This field is required</mat-error>
   </mat-form-field>
 
   </form>
